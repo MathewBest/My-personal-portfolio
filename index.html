@@ -5,41 +5,121 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Mathew Best // Web Developer Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+    <!-- main logo / nav -->
+    <header>
+      <div class="header container">
+      <nav id="navBar">
+      <h1>Mathew Best</h1>
+        <div id="navigation">
+          <p class="navItem"><a href="#about me">About Me</a></p>
+          <p class="navItem"><a href="#work">Work</a></p>
+          <p class="navItem"><a href="#contact">Contact Me</a></p>
+        </div>
+      </nav>
+      </div>
+    </header>
+  
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero container">
+        <div class="hero-content">
+          <h2>Welcome, to my personal portfolio!</h2>
+        </div>
+      </div>
+    </section>
+  
+    <main class="main container">
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+      <!-- about me -->
+    <section class="about section" id="about me">
+
+      <aside class="aboutTitle-box section-left">
+        <h2 class="aboutTitle sectionTitle">About Me</h2>
+      </aside>
+
+      <div class="about__text section-right">
+        <p>
+          My interest in web development started back in 2020
+          when I was working with a client from my previous career.
+          He was very experienced in front end development and seeing
+          what he worked on and was able to create inspired me to change
+          career paths.
+        </p>
+        <br>
+        <p>
+          I have only just begun to scratch the surface on this new trajectory
+          in to front end development but, through the bootcamp that I'm 
+          enrolled on, I know it will come to fruition very soon - and 
+          that excites me! 
+        </p>
+      </div>
+
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
+      <!-- work -->
+      <section class="work-section" id="work">
+        <aside class="workTitle-box section-left">
+          <h2 class="workTitle sectionTitle">Work</h2>
+        </aside>
+        
+        <div class="workTitle section-right">
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
-</body>
+        <section id="categoryGrid">
+            <div id="horiseon" class="categoryGridArea">
+              <div class="heading">Horiseon</div>
+              <p>Horiseon is a social media marketing company. I 
+                improved their website accessibility and SEO using semantic HTML and 
+                consolidating CSS selectors and properties.
+              </p>
+              <a class="link" href="https://mathewbest.github.io/horiseon-code-refactor/" target="_blank"></a>
+            </div>
+            <div id="projectTwo" class="categoryGridArea">
+              <div class="heading">Project 2//placeholder</div>
+            </div>
+            <div id="projectThree" class="categoryGridArea">
+              <div class="heading">Project 3//placeholder</div>
+            </div>
+            <div id="projectFour" class="categoryGridArea">
+              <div class="heading">Project 4//placeholder</div>
+            </div>
+            <div id="projectFive" class="categoryGridArea">
+              <div class="heading">Project 5//placeholder</div>
+            </div>
+        </section>    
+        </div>
+      </section>
 
-</html>
+      </main>
+  
+      <!-- contact -->
+      <footer class="contact footer" id="contact">
+        <div class="contact_container container section">
+  
+          <aside class="contactTitle-box section-left">
+            <h2 class="contactTitle sectionTitle">Contact Me</h2>
+          </aside>
+    
+          <div class="contact section-right">
+            <ul class="contactItems">
+              <li class="contact-item">
+                <a class="contact-item-link" target="_blank" href="mailto:mathew.best28@gmail.com">mathew.best28@gmail.com</a>
+              </li>
+              <li class="contact-item">
+                <a class="contact-item-link" target="_blank" href="https://github.com/MathewBest">GitHub</a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+  
+      </footer>
+      
+  </body>
+  
+  </html>
